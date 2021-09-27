@@ -1,0 +1,4 @@
+Dependências
+yarn init - salvar dependências e comandos (package.json)
+Começar o servidor:
+    yarn add express - simplifica a inicialização do servidor com algumas funções prontas.
