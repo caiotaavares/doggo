@@ -5,7 +5,11 @@
   "repository": "https://github.com/caiotaavares/doggo.git",
   "author": "caiotaavares <caio_s.tavares2@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
   }
 }
