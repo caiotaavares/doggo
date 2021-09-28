@@ -3,5 +3,10 @@ module.exports = {
     host: 'localhost',
     username: 'root',
     password: '',
-    database: 'doggo'
+    database: 'doggo',
+    define: {
+        underscored: true,
+        // por padrão é criada o created at e updated at na tabela, logo esse comando retina o updated at
+        timestamps: false
+    }
 }

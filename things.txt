@@ -8,3 +8,7 @@ Banco de dados:
     yarn add sequelize-cli - dependência que permite criar tabelas no banco e criar migrations automaticamente
     yarn add mysql2 - dependência para usar o mysql
     npx sequelize db:create - criar o banco
+    migrations
+        yarn sequelize migration:create --name=nome - comando que cria uma migration com o nome especificado
+        yarn sequelize db:migrate - comando que salva a migration
+        yarn sequelize db:migrate:undo:all - comando que desfaz todas ou apenas a ultima migration
