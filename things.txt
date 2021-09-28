@@ -3,4 +3,8 @@ yarn init - salvar dependências e comandos (package.json)
 Começar o servidor:
     yarn add express - simplifica a inicialização do servidor com algumas funções prontas.
     yarn add nodemon - reinicia o servidor a cada alteração
-    
+Banco de dados:
+    yarn add sequelize - dependência para conectar com o banco de dados
+    yarn add sequelize-cli - dependência que permite criar tabelas no banco e criar migrations automaticamente
+    yarn add mysql2 - dependência para usar o mysql
+    npx sequelize db:create - criar o banco
