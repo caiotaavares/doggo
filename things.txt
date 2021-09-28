@@ -12,3 +12,5 @@ Banco de dados:
         yarn sequelize migration:create --name=nome - comando que cria uma migration com o nome especificado
         yarn sequelize db:migrate - comando que salva a migration
         yarn sequelize db:migrate:undo:all - comando que desfaz todas ou apenas a ultima migration
+Encriptação
+yarn add bcrypt - dependência com funções que encriptação prontas
