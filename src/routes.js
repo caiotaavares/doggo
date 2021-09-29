@@ -7,4 +7,6 @@ routes.get('/', (req, res) => {
     return res.status(200).json('Api do doggo');
 })
 
+routes.post('/Users')
+
 module.exports = routes;
